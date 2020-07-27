@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Offline Mobile Tracker</string>
+    <string name="title_activity_locate_device">Map</string>
+</resources>

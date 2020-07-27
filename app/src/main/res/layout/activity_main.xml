@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <Button
+        android:id="@+id/add_phone"
+        android:layout_height="wrap_content"
+        android:layout_width="170dp"
+        android:text="Add Trusted Phone"
+        android:onClick="phone"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:layout_below="@+id/add_phone"
+        android:layout_marginTop="20dp"
+        android:id="@+id/track"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="Track Mobile"
+        android:onClick="track"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
